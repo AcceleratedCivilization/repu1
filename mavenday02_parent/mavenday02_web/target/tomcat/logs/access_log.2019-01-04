@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:44 +0800] "GET /mavenday02_web HTTP/1.1" 302 - http-bio-9999-exec-1 0
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:44 +0800] "GET /mavenday02_web HTTP/1.1" 302 - http-bio-9999-exec-3 0
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:47 +0800] "GET /mavenday02_web/ HTTP/1.1" 200 804 http-bio-9999-exec-4 3195
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:47 +0800] "GET /mavenday02_web/ HTTP/1.1" 200 804 http-bio-9999-exec-2 3302
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:47 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9999-exec-5 0
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:49 +0800] "GET /mavenday02_web/items/toAdd HTTP/1.1" 200 470 http-bio-9999-exec-6 82
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:49 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9999-exec-7 0
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:58 +0800] "POST /mavenday02_web/items/addItem HTTP/1.1" 302 - http-bio-9999-exec-8 33
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:25:59 +0800] "GET /mavenday02_web/items/findAll HTTP/1.1" 200 1136 http-bio-9999-exec-9 19
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:26:01 +0800] "GET /mavenday02_web/items/deleteItem?id=2 HTTP/1.1" 302 - http-bio-9999-exec-10 10
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:19:26:01 +0800] "GET /mavenday02_web/items/findAll HTTP/1.1" 200 804 http-bio-9999-exec-10 7
